@@ -1,0 +1,33 @@
+ 
+
+  
+      **** HTML DOM ****
+
+  >> When a web page is loaded, the browser creates a Document Object 
+    Model of the page.
+
+    The HTML DOM model is constructed as a tree of Objects:
+
+
+    
+    Every web page resides inside a browser window, which can be considered as an object.
+A document object represents the HTML document that is displayed in that window. The 
+document object has various properties that refer to other objects which allow access to 
+and modification of the document content.
+The way a document content is accessed and modified is called the Document Object 
+Model, or DOM. The objects are organized in a hierarchy. This hierarchical structure 
+applies to the organization of objects in a web document. 
+Following is a simple hierarchy of a few important objects: 
+There are several DOMs in existence. The following sections explain each of these DOMs 
+in detail and describe how you can use them to access and modify the document content. 
+ The Legacy DOM: This is the model which was introduced in early versions of 
+JavaScript language. It is well supported by all browsers, but allows access only to 
+certain key portions of documents, such as forms, form elements, and images.
+ The W3C DOM: This document object model allows access and modification of all 
+document content and is standardized by the World Wide Web Consortium (W3C). 
+This model is supported by almost all the modern browsers.
+ The IE4 DOM: This document object model was introduced in Version 4 of 
+Microsoft's Internet Explorer browser. IE 5 and later versions include support for 
+most basic W3C DOM features. 
+
+
